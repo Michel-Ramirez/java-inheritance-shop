@@ -25,10 +25,9 @@ public class Cart {
 		//Inizializzo la lista di oggetti
 		ArrayList<Product> prodList = new ArrayList<>(maxLng);
 		
-		System.out.println(maxLng);
 		
 		//ciclo per la massima lunghezza della lista
-		for (int x=0; x<maxLng - prodList.size(); x++) {
+		for (int x=0; x<maxLng; x++) {
 			
 			//Interrogo l'utente che prodotto sta inserendo
 			System.out.print("Quale prodotto stai inserendo? smtp(smartphone), tv o cuf(cuffie): ");

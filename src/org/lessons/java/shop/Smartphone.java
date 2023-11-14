@@ -7,7 +7,7 @@ public class Smartphone extends Product {
 	private int imei;
 	private int memory;
 	
-	
+	//COSTRUTTORE
 	public Smartphone(String name, String description, double price, int vat, int memory) {
 		super(name, description, price, vat);
 		
@@ -16,7 +16,7 @@ public class Smartphone extends Product {
 		
 	}
 	
-	
+	//GENRENO PRIVATAMENTE L'IMEI
 	private void genImei() {
 		
 		Random rnd = new Random();
@@ -25,7 +25,7 @@ public class Smartphone extends Product {
 	}
 	
 	
-	
+	//GETTER & SETTER
 	public int getImei() {
 		
 		return imei;

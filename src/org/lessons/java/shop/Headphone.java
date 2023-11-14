@@ -5,6 +5,7 @@ public class Headphone extends Product {
 	private String color;
 	private boolean wireless;
 
+	//COSTRUTTORE
 	public Headphone(String name, String description, double price, int vat, String color, boolean wireless) {
 		super(name, description, price, vat);
 		
@@ -12,6 +13,7 @@ public class Headphone extends Product {
 		setWireless(wireless);
 	}
 
+	//GETTER & SETTER
 	public String getColor() {
 		return color;
 	}
@@ -28,6 +30,8 @@ public class Headphone extends Product {
 		this.wireless = wireless;
 	}
 	
+	
+	//METODO
 	public String isWireless() {
 		String isWireless = "";
 		

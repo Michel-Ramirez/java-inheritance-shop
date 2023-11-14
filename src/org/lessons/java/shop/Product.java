@@ -112,7 +112,7 @@ public class Product {
 		return  "Prodotto: " + "\n"
 				+ "Nome: " + getName() + "\n"
 				+ "Descrizione: " + getDescription() + "\n"
-				+ "Prezzo base: " + getBasePrice() + "€" + "\n"
+				+ "Prezzo base: " + String.format("%.2f", getBasePrice()) + "€" + "\n"
 				+ "Prezzo finale: " + String.format("%.2f", getConsumerPrice()) + "€" + "\n"
 				+ "Codice: " + code + "-" + name;
 	}

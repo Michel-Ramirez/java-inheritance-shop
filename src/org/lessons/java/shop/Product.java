@@ -109,10 +109,12 @@ public class Product {
 	@Override
 	public String toString() {
 		
-		return "Prodotto:\n"
-				+ code + "-" + name + "\n"
-				+ "prezzo base: " + getBasePrice() + "€" + "\n"
-				+ "prezzo finale: " + String.format("%.2f", getConsumerPrice()) + "€";
+		return  "Prodotto: " + "\n"
+				+ "Nome: " + getName() + "\n"
+				+ "Descrizione: " + getDescription() + "\n"
+				+ "Prezzo base: " + getBasePrice() + "€" + "\n"
+				+ "Prezzo finale: " + String.format("%.2f", getConsumerPrice()) + "€" + "\n"
+				+ "Codice: " + code + "-" + name;
 	}
 	
 }
